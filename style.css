@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+.display-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    list-style: none;
+}
+
+.display-items li {
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom: 5px solid #e1ff37;
+}
+.display-items li img {
+    width: 100%;
+    height: 180px;
+}
